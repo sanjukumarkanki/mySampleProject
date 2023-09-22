@@ -1,0 +1,136 @@
+/* Write your CSS here */
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  box-shadow: rgba(31, 45, 61, 0.15) 0px 2px 2px 0px;
+}
+
+.nav-logo-container {
+  display: flex;
+  cursor: pointer;
+  height: 1.5rem;
+  object-fit: contain;
+}
+
+.nav-hamburger-button {
+  height: 1.5rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.lab-tests-parent {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.home {
+  width: 100%;
+  height: 40.488px;
+
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.nav-lab-text {
+  color: #138ed1 !important;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+
+  height: 40.488px;
+}
+
+.btn-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lab-tests-parent2 {
+  position: absolute;
+  top: 1.52rem;
+  left: calc(50% - 245px);
+  width: 26.44rem;
+  height: 2.59rem;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+
+.lab-tests2 {
+  position: absolute;
+  top: 0;
+  left: calc(50% + 21.5px);
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  color: #138ed1;
+  display: inline-block;
+  width: 5.63rem;
+  height: 2.53rem;
+}
+
+.nav-group1 {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-group1 li {
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style-type: none;
+
+  color: #000;
+  font-family: Inter;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.nav-group1 li:hover {
+  color: #138ed1;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 967px) {
+  .nav-group1 li {
+    font-size: 1.2rem;
+  }
+  .nav-lab-text {
+    font-size: 1.2rem !important;
+  }
+}
+
+.hamburger-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

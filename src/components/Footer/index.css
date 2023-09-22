@@ -1,0 +1,89 @@
+footer {
+  background: #1f1f1f;
+  width: 100%;
+  padding: 15px;
+}
+
+.footer-logo {
+  width: 37px;
+  height: 44.228px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-logo {
+    width: 137px;
+    height: 137px;
+  }
+}
+
+.footer-description {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-description {
+    font-size: 20px;
+  }
+}
+
+.number-input-container {
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.25);
+  height: 50px;
+  background-size: cover;
+}
+.form-input {
+  width: 85%;
+  height: 100%;
+}
+.number-input-container button {
+  width: 15%;
+  height: 52px;
+}
+
+.footer-right-side-container h2 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-right-side-container h2 {
+    font-size: 32px;
+  }
+}
+
+.footer-right-side-container ul li {
+  list-style-type: none;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  margin-bottom: 20px;
+  font-style: normal;
+  width: 100%;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-right-side-container ul li {
+    font-size: 20px;
+  }
+}
+
+.footer-copyright-text {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+}

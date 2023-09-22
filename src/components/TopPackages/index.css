@@ -1,0 +1,248 @@
+.top-packages-section {
+  background: rgb(255, 255, 255);
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 40%,
+    rgba(117, 207, 255, 1) 120%
+  );
+  width: 100%;
+  text-align: center;
+}
+
+.top-packages {
+  font-size: 1.5rem;
+  line-height: 4.38rem;
+  font-weight: 600;
+  margin-top: 30px;
+  font-family: inherit;
+  color: #000;
+}
+
+@media screen and (min-width: 768px) {
+  .top-packages {
+    font-size: 3rem;
+  }
+}
+
+.top-packages-description {
+  color: #6e6e6e;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  margin-bottom: 30px;
+  line-height: 2.5rem;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .top-packages-description {
+    font-size: 24px;
+  }
+}
+
+.top-packages-cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .top-packages-cards-container {
+    flex-direction: row;
+  }
+}
+
+.top-packages-cards-container > * {
+  background-color: #fff;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.basic-full-body-checkup-card {
+  color: #2f2f2f;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .basic-full-body-checkup-card {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+.each-card-rating {
+  color: #2f2f2f;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .each-card-rating {
+    font-size: 20px;
+  }
+}
+
+.each-card-star-icon {
+  width: 19px;
+  height: 18px;
+  color: gold;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .each-card-star-icon {
+    width: 24px;
+    height: 24px;
+    color: gold;
+  }
+}
+
+.each-card-reviews {
+  color: #6e6e6e;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .each-card-reviews {
+    font-size: 20px;
+  }
+}
+
+.number-of-test-text {
+  color: #2f2f2f;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 200% */
+}
+
+@media screen and (min-width: 768px) {
+  .number-of-test-text {
+    font-size: 20px;
+  }
+}
+
+.each-card-MRP-text {
+  color: #6e6e6e;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.each-card-discount-text {
+  color: #6e6e6e;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: line-through;
+  line-height: 20px;
+}
+.each-card-discount-text1 {
+  color: #6e6e6e;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.bookNow-button {
+  border-radius: 6px;
+  background: #008dd9;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 70%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.why-choose-us-card {
+  background-color: #fff;
+  border-radius: 38.5px;
+  padding: 10px;
+  position: relative;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .why-choose-us-card {
+    border-radius: 10px;
+  }
+}
+
+.why-choose-us-card h2 {
+  color: #2f2f2f;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .why-choose-us-card h2 {
+    font-size: 28px;
+  }
+}
+
+.why-choose-us-img-logo {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .why-choose-us-img-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+  }
+}
+
+.img-position {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .img-position {
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    bottom: 0px;
+    right: 0px;
+  }
+}

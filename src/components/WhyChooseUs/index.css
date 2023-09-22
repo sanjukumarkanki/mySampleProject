@@ -1,0 +1,10 @@
+.why-choose-us-bottom-container2 {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .why-choose-us-bottom-container2 {
+    padding-bottom: 20px;
+  }
+}
